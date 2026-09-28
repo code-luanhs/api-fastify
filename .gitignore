@@ -1,0 +1,25 @@
+# Dependências
+/node_modules
+
+# Código gerado
+/build
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Banco SQLite local
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# macOS e editor
+.DS_Store
+.vscode/
